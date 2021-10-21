@@ -105,6 +105,7 @@ margin: 0 auto;
     // border: 2px solid red;
     width: 100px;
     margin-left: 220px;
+
     .p {
         width: 16px;
         height: 16px;
@@ -114,13 +115,32 @@ margin: 0 auto;
         // margin-left: 20px;
         // border: 2px solid red;
     }
+// .home {
+//     height: 50px; 
+// width: 100px; 
+// margin: 35px 20px 0 0;
+// background: #B1BA5C;
+// position: relative;
+// }
+
+
+
     .popular {
-        width: 65px;
-        height: 20px;
-        background-color: black;
+        
         opacity: 1;
         color: white;
         text-align: center;
+        width: 65px; 
+height: 20px;
+background: grey;
+border-radius: 100px/50px;
+// width: 0; 
+// height: 0;
+// border-top: 5px solid transparent;
+// border-right: 10px solid #959FB0;
+// border-bottom: 5px solid transparent;
+
+
    }
 }
 

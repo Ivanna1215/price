@@ -81,11 +81,12 @@
         border-radius: 16px;
         background-color: pink; }
       .container .element:hover .group .popular {
-        width: 65px;
-        height: 20px;
-        background-color: black;
         opacity: 1;
         color: white;
-        text-align: center; }
+        text-align: center;
+        width: 65px;
+        height: 20px;
+        background: grey;
+        border-radius: 100px/50px; }
     .container .element:hover button {
       background-color: pink; }
