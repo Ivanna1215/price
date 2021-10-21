@@ -69,6 +69,8 @@
         border: none;
         border-radius: 81px;
         background-color: darkcyan; }
+    .container .element .work-5 {
+      opacity: 0; }
   .container .element:hover {
     height: 500px;
     margin-top: 20px; }
@@ -107,4 +109,9 @@
         background: grey;
         border-radius: 100px/50px; }
     .container .element:hover button {
-      background-color: pink; }
+      background-color: pink;
+      margin-top: 170px; }
+    .container .element:hover .work-5 {
+      margin-top: 170px;
+      text-align: center;
+      opacity: 1; }
