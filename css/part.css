@@ -7,79 +7,97 @@
   justify-content: center; }
   .container .element {
     width: 250px;
-    height: 400px;
+    height: 380px;
     border: 2px solid #7700ff;
     margin-top: 100px;
     margin-left: 50px;
     background-color: #fff; }
-    .container .element .popular {
-      opacity: 0; }
-    .container .element .header {
-      display: flex;
-      width: 80px;
-      height: 40px;
-      text-align: center;
-      margin: 50px auto; }
-      .container .element .header .part-1 {
-        font-size: 20px; }
-      .container .element .header .part-2 {
-        font-size: 35px; }
-      .container .element .header .part-3 {
-        font-size: 15px;
+    .container .element .zone-1 {
+      width: 250px;
+      background-color: #f5f4f4; }
+      .container .element .zone-1 .wrap {
+        width: 100px;
+        height: 30px; }
+        .container .element .zone-1 .wrap .p {
+          opacity: 0; }
+        .container .element .zone-1 .wrap .popular {
+          opacity: 0; }
+      .container .element .zone-1 .header {
         display: flex;
-        align-items: flex-end; }
-    .container .element .name {
-      font-size: 20px;
-      text-transform: uppercase;
-      color: brown;
-      text-align: center;
-      margin-bottom: 10px; }
-    .container .element .name:hover {
-      color: blue; }
+        width: 80px;
+        height: 40px;
+        text-align: center;
+        margin: 0 auto; }
+        .container .element .zone-1 .header .part-1 {
+          font-size: 20px;
+          margin-top: 6px; }
+        .container .element .zone-1 .header .part-2 {
+          font-size: 35px; }
+        .container .element .zone-1 .header .part-3 {
+          font-size: 15px;
+          display: flex;
+          align-items: flex-end; }
+      .container .element .zone-1 .name {
+        font-size: 20px;
+        text-transform: uppercase;
+        color: brown;
+        text-align: center;
+        margin-bottom: 10px; }
+      .container .element .zone-1 .name:hover {
+        color: blue; }
+    .container .element .picture {
+      width: 50px;
+      height: 50px;
+      margin: 0 auto;
+      text-align: center; }
+      .container .element .picture img {
+        width: 30px;
+        height: 30px; }
     .container .element .text {
       font-size: 18px;
       margin-bottom: 10px;
       text-align: center; }
     .container .element .basic {
-      border-radius: 10px;
       width: 150px;
       height: 35px;
       margin: 0 auto; }
       .container .element .basic button {
         width: 150px;
-        height: 35px;
+        height: 36px;
         text-align: center;
-        margin: 80px auto;
+        margin: 86px auto;
         border: none;
-        border-radius: 10px;
+        border-radius: 81px;
         background-color: darkcyan; }
   .container .element:hover {
     height: 500px;
-    margin-top: 50px; }
-    .container .element:hover .interesting {
-      background-color: brown; }
+    margin-top: 20px; }
     .container .element:hover .mini {
       width: 4px;
       height: 4px;
       border-radius: 4px;
       background-color: pink;
-      margin-left: 247px; }
+      margin-top: 2px;
+      margin-left: 240px;
+      margin-right: 10px; }
     .container .element:hover .midi {
       width: 8px;
       height: 8px;
       border-radius: 8px;
       background-color: pink;
-      margin-left: 237px; }
+      margin-left: 230px; }
     .container .element:hover .group {
       display: flex;
       justify-content: space-between;
       width: 100px;
-      margin-left: 220px; }
+      margin-left: 215px; }
       .container .element:hover .group .p {
         width: 16px;
         height: 16px;
         border-radius: 16px;
-        background-color: pink; }
+        background-color: pink;
+        opacity: 1;
+        text-align: center; }
       .container .element:hover .group .popular {
         opacity: 1;
         color: white;

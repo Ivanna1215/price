@@ -7,86 +7,130 @@
     justify-content: center;
 .element {
     width: 250px;
-    height: 400px;
+    height: 380px;
     border: 2px solid rgb(119, 0, 255);
     margin-top: 100px;
     margin-left: 50px;
     background-color: #fff;
-     .popular {
+    
+.zone-1 {
+    width: 250px;
+    // border: 2px solid red;
+    background-color: rgb(245, 244, 244);
+    // border-radius: 150px;
+    .wrap {
+        width: 100px;
+        height: 30px;
+        // border: 2px solid red;
+        .p {
         opacity: 0;
     }
-   
     
-    .header {
-        display: flex;
-        // border: 2px solid black;
-        width: 80px;
-        height: 40px;
-        text-align: center;
-        margin: 50px auto;
-        .part-1 {
-            font-size:20px;
-            // border: 2px solid red;
+         .popular {
+            opacity: 0;
         }
-        .part-2 {
-            font-size:35px; 
-        }
-        .part-3 {
-            font-size: 15px; 
-            // border: 2px solid red;
+       
+    }
+       
+        .header {
             display: flex;
-            align-items: flex-end;
+            // border: 2px solid black;
+            width: 80px;
+            height: 40px;
+            text-align: center;
+            margin: 0 auto;
+            .part-1 {
+                font-size:20px;
+                // border: 2px solid red;
+                margin-top: 6px;
+            }
+            .part-2 {
+                font-size:35px; 
+                // border:2px solid green ;
+            }
+            .part-3 {
+                font-size: 15px; 
+                // border: 2px solid red;
+                display: flex;
+                align-items: flex-end;
+            }
+    
         }
-
-    }
-    .name {
-        font-size: 20px;
-        text-transform: uppercase;
-        color: brown;
-        text-align: center;
-        margin-bottom: 10px;
-    }
-    .name:hover {
-        color: blue;
-    }
-
-
-.text {
-    font-size: 18px;
-    margin-bottom: 10px;
-    text-align: center;
+        .name {
+            font-size: 20px;
+            text-transform: uppercase;
+            color: brown;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .name:hover {
+            color: blue;
+        }
 }
+
+// .zone-2 {
+//     width: 250px;
+//     border-radius: 60%;
+//     background-color: rgb(245, 244, 244);
+// }
+    
+
+    .picture {
+        // border: 2px solid red;
+        width: 50px;
+        height: 50px;
+        margin: 0 auto;
+        text-align: center;
+        img {
+            width: 30px;
+            height: 30px;
+        }
+    }
+    
+    .text {
+        font-size: 18px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+// .zone-3 {
+//     border: 2px solid red;
+//     background-color: rgb(245, 244, 244);
+
+// }
+
 .basic {
 // border: 2px solid red;
-border-radius: 10px;
+// border-radius: 150px;
 width: 150px;
 height: 35px;
 margin: 0 auto;
     button {
         width: 150px;
-        height: 35px;
+        height: 36px;
         text-align: center;
-        margin: 80px auto;
+        margin: 86px auto;
         border: none;
-        border-radius: 10px;
+        border-radius: 81px;
         background-color: darkcyan;
         }
-     
 }
+
+
 }
 
 .element:hover {
     height: 500px;
-    margin-top: 50px;
-    .interesting {
-    background-color: brown;
-}
+    margin-top: 20px;
+  
 .mini {
     width: 4px;
     height: 4px;
     border-radius: 4px;
     background-color: pink;
-    margin-left: 247px;
+    margin-top: 2px;
+    margin-left: 240px;
+    margin-right: 10px;
     // border: 2px solid red;
 }
 .midi {
@@ -94,7 +138,7 @@ margin: 0 auto;
     height: 8px;
     border-radius: 8px;
     background-color: pink;
-    margin-left: 237px;
+    margin-left: 230px;
     // border: 2px solid red;
 }
 
@@ -103,13 +147,15 @@ margin: 0 auto;
     justify-content: space-between;
     // border: 2px solid red;
     width: 100px;
-    margin-left: 220px;
+    margin-left: 215px;
 
     .p {
         width: 16px;
         height: 16px;
         border-radius: 16px;
         background-color: pink;
+        opacity: 1;
+        text-align: center;
      
     }
 // .home {
@@ -134,13 +180,9 @@ border-radius: 100px/50px;
    }
 }
 
-
-
-
     button {
         background-color: pink; 
      }
 }
-
 
 }
