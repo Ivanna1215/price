@@ -12,6 +12,7 @@
     margin-top: 100px;
     margin-left: 50px;
     background-color: #fff;
+    position: relative;
     
 .zone-1 {
     width: 250px;
@@ -106,6 +107,7 @@
 width: 150px;
 height: 35px;
 margin: 0 auto;
+
 // opacity: 0;
     button {
         width: 150px;
@@ -115,6 +117,8 @@ margin: 0 auto;
         border: none;
         border-radius: 81px;
         background-color: darkcyan;
+        position: absolute;
+transform: translate (50% 0); 
         }
 }
 .work-5 {
@@ -152,6 +156,7 @@ margin: 0 auto;
     // border: 2px solid red;
     width: 100px;
     margin-left: 215px;
+    position: relative;
 
     .p {
         width: 16px;
@@ -162,26 +167,47 @@ margin: 0 auto;
         text-align: center;
      
     }
+.square {
+    width: 10px;
+    height: 10px;
+    // border: 2px solid red;
+    transform: rotate(45deg);
+    // transform: translate(0 50%);
+    background: grey;
+    margin-top: 5px;
+    // margin-left: 10px;
+    // padding-right: 10px;
+    margin-right: 20px;
+    position: absolute;
+left: 20px;
+}
 
     .popular {
         
         opacity: 1;
         color: white;
         text-align: center;
-        width: 65px; 
+        width: 80px; 
 height: 20px;
 background: grey;
 border-radius: 100px/50px;
    }
 }
-button {
-    background-color: pink;
-    margin-top: 170px; 
- }
+
+.basic {
+    padding-bottom: 20px;
+    button {
+        background-color: pink;
+        margin-top: 145px; 
+        
+     }
+}
+
 .work-5 {
-    margin-top: 170px;
+    margin-top: 145px;
     text-align: center;
     opacity: 1;
+    font-size: 10px;
         }
 
 

@@ -11,7 +11,8 @@
     border: 2px solid #7700ff;
     margin-top: 100px;
     margin-left: 50px;
-    background-color: #fff; }
+    background-color: #fff;
+    position: relative; }
     .container .element .zone-1 {
       width: 250px;
       background-color: #f5f4f4; }
@@ -68,7 +69,9 @@
         margin: 86px auto;
         border: none;
         border-radius: 81px;
-        background-color: darkcyan; }
+        background-color: darkcyan;
+        position: absolute;
+        transform: translate 50% 0; }
     .container .element .work-5 {
       opacity: 0; }
   .container .element:hover {
@@ -92,7 +95,8 @@
       display: flex;
       justify-content: space-between;
       width: 100px;
-      margin-left: 215px; }
+      margin-left: 215px;
+      position: relative; }
       .container .element:hover .group .p {
         width: 16px;
         height: 16px;
@@ -100,18 +104,30 @@
         background-color: pink;
         opacity: 1;
         text-align: center; }
+      .container .element:hover .group .square {
+        width: 10px;
+        height: 10px;
+        transform: rotate(45deg);
+        background: grey;
+        margin-top: 5px;
+        margin-right: 20px;
+        position: absolute;
+        left: 20px; }
       .container .element:hover .group .popular {
         opacity: 1;
         color: white;
         text-align: center;
-        width: 65px;
+        width: 80px;
         height: 20px;
         background: grey;
         border-radius: 100px/50px; }
-    .container .element:hover button {
-      background-color: pink;
-      margin-top: 170px; }
+    .container .element:hover .basic {
+      padding-bottom: 20px; }
+      .container .element:hover .basic button {
+        background-color: pink;
+        margin-top: 145px; }
     .container .element:hover .work-5 {
-      margin-top: 170px;
+      margin-top: 145px;
       text-align: center;
-      opacity: 1; }
+      opacity: 1;
+      font-size: 10px; }
