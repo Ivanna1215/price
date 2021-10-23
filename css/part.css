@@ -12,38 +12,40 @@
     margin-left: 50px;
     background-color: #e9d5d8;
     position: relative; }
-    .container .element .zone-1 .wrap {
-      width: 100px;
-      height: 30px; }
-      .container .element .zone-1 .wrap .p {
-        opacity: 0; }
-      .container .element .zone-1 .wrap .popular {
-        opacity: 0; }
-    .container .element .zone-1 .header {
-      display: flex;
-      width: 80px;
-      height: 40px;
-      text-align: center;
-      margin: 0 auto; }
-      .container .element .zone-1 .header .part-1 {
-        font-size: 15px;
-        vertical-align: top;
-        padding-top: 5px;
-        vertical-align: super; }
-      .container .element .zone-1 .header .part-2 {
-        font-size: 35px; }
-      .container .element .zone-1 .header .part-3 {
-        font-size: 15px;
-        margin-top: 20px;
-        vertical-align: bottom; }
-    .container .element .zone-1 .name {
-      font-size: 20px;
-      text-transform: uppercase;
-      color: brown;
-      text-align: center;
-      margin-bottom: 10px; }
-    .container .element .zone-1 .name:hover {
-      color: blue; }
+    .container .element .zone-1 {
+      width: 250px; }
+      .container .element .zone-1 .wrap {
+        width: 100px;
+        height: 30px; }
+        .container .element .zone-1 .wrap .p {
+          opacity: 0; }
+        .container .element .zone-1 .wrap .popular {
+          opacity: 0; }
+      .container .element .zone-1 .header {
+        display: flex;
+        width: 80px;
+        height: 40px;
+        text-align: center;
+        margin: 0 auto; }
+        .container .element .zone-1 .header .part-1 {
+          font-size: 15px;
+          vertical-align: top;
+          padding-top: 5px;
+          vertical-align: super; }
+        .container .element .zone-1 .header .part-2 {
+          font-size: 35px; }
+        .container .element .zone-1 .header .part-3 {
+          font-size: 15px;
+          margin-top: 20px;
+          vertical-align: bottom; }
+      .container .element .zone-1 .name {
+        font-size: 20px;
+        text-transform: uppercase;
+        color: brown;
+        text-align: center;
+        margin-bottom: 10px; }
+      .container .element .zone-1 .name:hover {
+        color: blue; }
     .container .element .zone-2 {
       width: 250px;
       height: 220px;
@@ -84,9 +86,8 @@
   .container .element:hover {
     position: relative;
     height: 500px;
-    margin-top: 20px;
-    border: 2px solid black; }
-    .container .element:hover .mini {
+    margin-top: 20px; }
+    .container .element:hover .zone-1 .mini {
       width: 4px;
       height: 4px;
       border-radius: 4px;
@@ -94,7 +95,7 @@
       position: absolute;
       top: 3px;
       right: 3px; }
-    .container .element:hover .midi {
+    .container .element:hover .zone-1 .midi {
       width: 8px;
       height: 8px;
       border-radius: 8px;
@@ -102,7 +103,7 @@
       position: absolute;
       top: 7px;
       right: 7px; }
-    .container .element:hover .group {
+    .container .element:hover .zone-1 .group {
       display: flex;
       justify-content: space-between;
       width: 100px;
@@ -111,7 +112,7 @@
       position: absolute;
       top: 1px;
       right: 5px; }
-      .container .element:hover .group .p {
+      .container .element:hover .zone-1 .group .p {
         width: 20px;
         height: 20px;
         border-radius: 20px;
@@ -121,7 +122,7 @@
         position: absolute;
         top: 1px;
         left: 70px; }
-      .container .element:hover .group .square {
+      .container .element:hover .zone-1 .group .square {
         width: 10px;
         height: 10px;
         transform: rotate(45deg);
@@ -129,7 +130,7 @@
         position: absolute;
         top: 5px;
         left: 99px; }
-      .container .element:hover .group .popular {
+      .container .element:hover .zone-1 .group .popular {
         opacity: 1;
         color: white;
         text-align: center;
@@ -140,14 +141,21 @@
         position: absolute;
         top: 1px;
         left: 100px; }
+    .container .element:hover .zone-2 {
+      position: absolute;
+      bottom: 50px;
+      height: 70%; }
     .container .element:hover .zone-3 {
-      margin-top: 80px; }
+      background-color: #e9d5d8;
+      width: 250px;
+      position: absolute;
+      bottom: 0; }
       .container .element:hover .zone-3 .basic {
         padding-bottom: 20px; }
         .container .element:hover .zone-3 .basic button {
           background-color: pink;
           position: absolute;
-          bottom: 100px;
+          bottom: 90px;
           transform: translateY(50px); }
       .container .element:hover .zone-3 .work-5 {
         margin-top: 145px;
