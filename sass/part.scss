@@ -15,24 +15,25 @@
     position: relative;
     
 .zone-1 {
-    width: 250px;
-  
-    
-    
+    // width: 250px;
+    height: 25%;
+    background-color: blue;
+
     .wrap {
         width: 100px;
         height: 30px;
         // border: 2px solid red;
         .p {
-        opacity: 0;
+        display: none;
+
     }
     
          .popular {
-            opacity: 0;
+            // opacity: 0;
+            display: none;
         }
        
     }
-       
         .header {
             display: flex;
             // border: 2px solid black;
@@ -73,8 +74,9 @@
 
 .zone-2 {
     width: 250px;
-    height:220px ;
-    background-color: rgb(245, 244, 244);
+    height:50% ;
+    // background-color: rgb(245, 244, 244);
+    background-color: blueviolet;
     border-top-left-radius:160px ;
     border-top-right-radius: 160px;
     
@@ -98,36 +100,31 @@
  
 }
 .zone-3 {
-    // height: 100px;
     // border: 2px solid red;
-    background-color: rgb(233, 213, 216);
-    margin-top: 20px;
+    // background-color: rgb(233, 213, 216);
+    background-color: brown;
+    height: 25%;
 
 }
 
-.basic {
-// border: 2px solid red;
-// border-radius: 150px;
-width: 150px;
-height: 35px;
-margin: 0 auto;
 
-// opacity: 0;
-    button {
+    .basic {
         width: 150px;
         height: 36px;
         text-align: center;
-        margin: 0 auto;
+        // margin: 0 auto;
         border: none;
         border-radius: 81px;
         background-color: darkcyan;
         position: absolute;
-        // top: 300px;
-transform: translateY(100%); 
+        right: 50%;
+        bottom: 0;
+transform: translate(50% 0);
+
         }
-}
+
 .work-5 {
-    opacity: 0;
+    display: none;
         }
 
 }
@@ -200,7 +197,8 @@ transform: translateY(100%);
         
             .popular {
                 
-                opacity: 1;
+                // opacity: 1;
+                display: block;
                 color: white;
                 text-align: center;
                 width: 80px; 
@@ -215,47 +213,37 @@ transform: translateY(100%);
     }
 }
 .zone-2 {
-    position: absolute;
-    bottom: 50px;
-    height: 70%;
+    // height: 70%;
 }
 
 .zone-3 {
-    // height: 5%;
-    // margin-top: 124px;
-    background-color: rgb(233, 213, 216);
+    // background-color: rgb(233, 213, 216);
+    // background-color: brown;
+    // width: 250px;
+   
 
+    
+       
+        .basic {
+        background-color: pink;
+        position: absolute;
+         top: 0;
+          right: 50%;
 
-    width: 250px;
-    position: absolute;
-    bottom: 0;
-
-    .basic {
-        padding-bottom: 20px;
-        button {
-            background-color: pink;
-            // margin-top: 145px; 
-            position: absolute;
-          bottom: 90px ;
-          transform: translateY(50px); 
+        
          }
-    }
+
     
     .work-5 {
-        margin-top: 145px;
+        // margin-top: 145px;
         text-align: center;
-        opacity: 1;
+display: block;
         font-size: 10px;
-        position: absolute;
-        bottom: 10px;
-        transform: translateX(60%); 
+        bottom: 20px;
+       
         
             }
 }
-
-
-  
-
 
 }
 }
